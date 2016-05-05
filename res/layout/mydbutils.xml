@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xutils_my.ViewUtilsActivity" >
+
+    
+    <EditText
+        android:id="@+id/dbutils_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入内容"/>
+    
+    <Button 
+        android:id="@+id/dbutils_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存数据"/>
+    
+    <Button 
+        android:id="@+id/dbutils_select_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询数据"
+        />
+    <TextView
+         android:id="@+id/dbutils_tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+
+</LinearLayout>
